@@ -11,3 +11,7 @@ venv/
 
 # Système
 .DS_Store
+
+# Windows system files
+desktop.ini
+Thumbs.db
