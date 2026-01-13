@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Chargement des données
-df = pd.read_csv("../Data.csv")
+df = pd.read_csv("Data/Data.csv")
 
 # Colonnes MTF
 mtf_cols = [col for col in df.columns if col.startswith("MTF")]
